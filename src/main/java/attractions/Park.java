@@ -1,8 +1,12 @@
 package attractions;
 
-public class Park extends Attraction {
+import behaviours.IReviewed;
+
+public class Park extends Attraction implements IReviewed {
 
     public Park(String name, int rating) {
         super(name, rating);
     }
+
+
 }
